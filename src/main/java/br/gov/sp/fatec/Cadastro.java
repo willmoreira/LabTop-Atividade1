@@ -2,7 +2,9 @@ package br.gov.sp.fatec;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Cadastro {
 	
 	@Autowired
@@ -13,10 +15,7 @@ public class Cadastro {
 	}
 	
 	public String ler() {
-		return user.getNome() 
-			 + user.getCpf()
-			 + user.getIdade()
-			 + user.getTime();
+		return user.getNome();
 	}
 	
 	public void setNome(Usuario user) {
