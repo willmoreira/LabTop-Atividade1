@@ -3,6 +3,10 @@ package br.gov.sp.fatec;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author William Moreira 
+ * @author Matheus Vinicius Calazans Archanjo
+ */
 public class App 
 {
 	public static void main(String[] args) {
